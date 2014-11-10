@@ -9,11 +9,10 @@
 /* Begin PBXBuildFile section */
 		0A3A7CB71A1070F4008D544A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3A7CB61A1070F4008D544A /* main.m */; };
 		0A3A7CBA1A1070F4008D544A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3A7CB91A1070F4008D544A /* AppDelegate.m */; };
-		0A3A7CBD1A1070F4008D544A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3A7CBC1A1070F4008D544A /* ViewController.m */; };
-		0A3A7CC01A1070F4008D544A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A3A7CBE1A1070F4008D544A /* Main.storyboard */; };
 		0A3A7CC21A1070F4008D544A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A3A7CC11A1070F4008D544A /* Images.xcassets */; };
-		0A3A7CC51A1070F4008D544A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A3A7CC31A1070F4008D544A /* LaunchScreen.xib */; };
 		0A3A7CD11A1070F4008D544A /* QuizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3A7CD01A1070F4008D544A /* QuizTests.m */; };
+		0A3A7CDD1A10715B008D544A /* BNRQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A3A7CDB1A10715B008D544A /* BNRQuizViewController.m */; };
+		0A3A7CDE1A10715B008D544A /* BNRQuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A3A7CDC1A10715B008D544A /* BNRQuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +31,13 @@
 		0A3A7CB61A1070F4008D544A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0A3A7CB81A1070F4008D544A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0A3A7CB91A1070F4008D544A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0A3A7CBB1A1070F4008D544A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0A3A7CBC1A1070F4008D544A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		0A3A7CBF1A1070F4008D544A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A3A7CC11A1070F4008D544A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		0A3A7CC41A1070F4008D544A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		0A3A7CCA1A1070F4008D544A /* QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A3A7CCF1A1070F4008D544A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A3A7CD01A1070F4008D544A /* QuizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuizTests.m; sourceTree = "<group>"; };
+		0A3A7CDA1A10715B008D544A /* BNRQuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRQuizViewController.h; sourceTree = "<group>"; };
+		0A3A7CDB1A10715B008D544A /* BNRQuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRQuizViewController.m; sourceTree = "<group>"; };
+		0A3A7CDC1A10715B008D544A /* BNRQuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BNRQuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +79,12 @@
 		0A3A7CB31A1070F4008D544A /* Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				0A3A7CDA1A10715B008D544A /* BNRQuizViewController.h */,
+				0A3A7CDB1A10715B008D544A /* BNRQuizViewController.m */,
+				0A3A7CDC1A10715B008D544A /* BNRQuizViewController.xib */,
 				0A3A7CB81A1070F4008D544A /* AppDelegate.h */,
 				0A3A7CB91A1070F4008D544A /* AppDelegate.m */,
-				0A3A7CBB1A1070F4008D544A /* ViewController.h */,
-				0A3A7CBC1A1070F4008D544A /* ViewController.m */,
-				0A3A7CBE1A1070F4008D544A /* Main.storyboard */,
 				0A3A7CC11A1070F4008D544A /* Images.xcassets */,
-				0A3A7CC31A1070F4008D544A /* LaunchScreen.xib */,
 				0A3A7CB41A1070F4008D544A /* Supporting Files */,
 			);
 			path = Quiz;
@@ -199,8 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A3A7CC01A1070F4008D544A /* Main.storyboard in Resources */,
-				0A3A7CC51A1070F4008D544A /* LaunchScreen.xib in Resources */,
+				0A3A7CDE1A10715B008D544A /* BNRQuizViewController.xib in Resources */,
 				0A3A7CC21A1070F4008D544A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A3A7CBD1A1070F4008D544A /* ViewController.m in Sources */,
 				0A3A7CBA1A1070F4008D544A /* AppDelegate.m in Sources */,
 				0A3A7CB71A1070F4008D544A /* main.m in Sources */,
+				0A3A7CDD1A10715B008D544A /* BNRQuizViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +238,6 @@
 			targetProxy = 0A3A7CCB1A1070F4008D544A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		0A3A7CBE1A1070F4008D544A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A3A7CBF1A1070F4008D544A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		0A3A7CC31A1070F4008D544A /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A3A7CC41A1070F4008D544A /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0A3A7CD21A1070F4008D544A /* Debug */ = {
